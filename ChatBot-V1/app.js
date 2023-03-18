@@ -18,7 +18,7 @@ sendButton.addEventListener('click', () => {
 let conversationHistory = '';
 
 async function sendToChatGPT(message) {
-  const apiKey = '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';
+  const apiKey = '.......';
   const model = "gpt-3.5-turbo";
   const url = `https://api.openai.com/v1/chat/completions`;
 
